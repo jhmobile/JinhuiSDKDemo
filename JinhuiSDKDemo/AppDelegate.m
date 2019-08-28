@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
+#import "EntryViewController.h"
+#import <JinhuiSDK/JinhuiSDK.h>
+#import "EventListener.h"
+#import "User.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +21,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [JinhuiSDK setAppKey:@"jh0cbc916c0191b606" appSecret:@"47a44def5315c96b94819b10e69808e5"];
+    [JinhuiSDK setEnvironmentMode:NO];
+    [JinhuiSDK setEventListener:[EventListener shared]];
+    [JinhuiSDK setParams:@{@"themeColor": @"#ff6600"}];
+    
+    if ([User currentUser]) {
+        NSDictionary *userInfo = @{
+                                   @"name": [User currentUser].name,
+                                   @"mobile": [User currentUser].mobile,
+                                   @"bankAccount":  [User currentUser].bankAccount,
+                                   @"idNo": [User currentUser].idNo
+                                   };
+        [JinhuiSDK login:userInfo];
+    } else {
+        [JinhuiSDK logout];
+    }
+    
+    UIViewController *vc = [[EntryViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838D282BD0C7D83D33791C96 /* libPods-JinhuiSDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */; };
+		CE11D7EDE78BEC5137867A6A /* libPods-JinhuiSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */; };
+		F1F0D89B71B8FA49F907B3B6 /* libPods-JinhuiSDKDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */; };
 		F2A427722315014F00F5A4B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427712315014F00F5A4B9 /* AppDelegate.m */; };
-		F2A427752315014F00F5A4B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427742315014F00F5A4B9 /* ViewController.m */; };
-		F2A427782315014F00F5A4B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A427762315014F00F5A4B9 /* Main.storyboard */; };
 		F2A4277A2315015000F5A4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A427792315015000F5A4B9 /* Assets.xcassets */; };
 		F2A4277D2315015000F5A4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A4277B2315015000F5A4B9 /* LaunchScreen.storyboard */; };
 		F2A427802315015000F5A4B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4277F2315015000F5A4B9 /* main.m */; };
 		F2A4278A2315015000F5A4B9 /* JinhuiSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427892315015000F5A4B9 /* JinhuiSDKDemoTests.m */; };
 		F2A427952315015000F5A4B9 /* JinhuiSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427942315015000F5A4B9 /* JinhuiSDKDemoUITests.m */; };
+		F2A427BF231665A900F5A4B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427AD231665A700F5A4B9 /* LoginViewController.m */; };
+		F2A427C0231665A900F5A4B9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427AE231665A700F5A4B9 /* User.m */; };
+		F2A427C1231665A900F5A4B9 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427AF231665A700F5A4B9 /* EntryViewController.m */; };
+		F2A427C2231665A900F5A4B9 /* RiskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427B2231665A700F5A4B9 /* RiskViewController.m */; };
+		F2A427C3231665A900F5A4B9 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427B3231665A700F5A4B9 /* TabBarController.m */; };
+		F2A427C4231665A900F5A4B9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427B5231665A700F5A4B9 /* MineViewController.m */; };
+		F2A427C5231665A900F5A4B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427B8231665A800F5A4B9 /* HomeViewController.m */; };
+		F2A427C6231665A900F5A4B9 /* EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427BB231665A800F5A4B9 /* EventListener.m */; };
+		F2A427C92316675B00F5A4B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2A427C82316675B00F5A4B9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DF0C19DDADC25FC29C00908 /* Pods-JinhuiSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemoTests/Pods-JinhuiSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7F37A079EE74634F1FDCE6 /* Pods-JinhuiSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemoUITests/Pods-JinhuiSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97D5BB7E0C4486740F2D0596 /* Pods-JinhuiSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemo/Pods-JinhuiSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9F53AA890A1AB26694C8DDF4 /* Pods-JinhuiSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemoTests/Pods-JinhuiSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FEDA354E951E89938C449FF /* Pods-JinhuiSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemoUITests/Pods-JinhuiSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemo/Pods-JinhuiSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F2A4276D2315014F00F5A4B9 /* JinhuiSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JinhuiSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A427702315014F00F5A4B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2A427712315014F00F5A4B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2A427732315014F00F5A4B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2A427742315014F00F5A4B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F2A427772315014F00F5A4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A427792315015000F5A4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A4277C2315015000F5A4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2A4277E2315015000F5A4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,23 @@
 		F2A427902315015000F5A4B9 /* JinhuiSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinhuiSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A427942315015000F5A4B9 /* JinhuiSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinhuiSDKDemoUITests.m; sourceTree = "<group>"; };
 		F2A427962315015000F5A4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A427AD231665A700F5A4B9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F2A427AE231665A700F5A4B9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F2A427AF231665A700F5A4B9 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		F2A427B0231665A700F5A4B9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F2A427B1231665A700F5A4B9 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		F2A427B2231665A700F5A4B9 /* RiskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskViewController.m; sourceTree = "<group>"; };
+		F2A427B3231665A700F5A4B9 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		F2A427B5231665A700F5A4B9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F2A427B6231665A800F5A4B9 /* RiskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskViewController.h; sourceTree = "<group>"; };
+		F2A427B7231665A800F5A4B9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F2A427B8231665A800F5A4B9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F2A427B9231665A800F5A4B9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F2A427BA231665A800F5A4B9 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		F2A427BB231665A800F5A4B9 /* EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListener.m; sourceTree = "<group>"; };
+		F2A427BC231665A800F5A4B9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F2A427BE231665A900F5A4B9 /* EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListener.h; sourceTree = "<group>"; };
+		F2A427C82316675B00F5A4B9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE11D7EDE78BEC5137867A6A /* libPods-JinhuiSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838D282BD0C7D83D33791C96 /* libPods-JinhuiSDKDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +107,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F0D89B71B8FA49F907B3B6 /* libPods-JinhuiSDKDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49FA8036895D928A555526F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */,
+				B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */,
+				5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD8D2B6418FABD1E9CC689A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */,
+				97D5BB7E0C4486740F2D0596 /* Pods-JinhuiSDKDemo.release.xcconfig */,
+				2DF0C19DDADC25FC29C00908 /* Pods-JinhuiSDKDemoTests.debug.xcconfig */,
+				9F53AA890A1AB26694C8DDF4 /* Pods-JinhuiSDKDemoTests.release.xcconfig */,
+				9FEDA354E951E89938C449FF /* Pods-JinhuiSDKDemoUITests.debug.xcconfig */,
+				7A7F37A079EE74634F1FDCE6 /* Pods-JinhuiSDKDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F2A427642315014F00F5A4B9 = {
 			isa = PBXGroup;
 			children = (
+				F2A427C82316675B00F5A4B9 /* README.md */,
 				F2A4276F2315014F00F5A4B9 /* JinhuiSDKDemo */,
 				F2A427882315015000F5A4B9 /* JinhuiSDKDemoTests */,
 				F2A427932315015000F5A4B9 /* JinhuiSDKDemoUITests */,
 				F2A4276E2315014F00F5A4B9 /* Products */,
+				8AD8D2B6418FABD1E9CC689A /* Pods */,
+				49FA8036895D928A555526F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +165,22 @@
 			children = (
 				F2A427702315014F00F5A4B9 /* AppDelegate.h */,
 				F2A427712315014F00F5A4B9 /* AppDelegate.m */,
-				F2A427732315014F00F5A4B9 /* ViewController.h */,
-				F2A427742315014F00F5A4B9 /* ViewController.m */,
-				F2A427762315014F00F5A4B9 /* Main.storyboard */,
+				F2A427B1231665A700F5A4B9 /* EntryViewController.h */,
+				F2A427AF231665A700F5A4B9 /* EntryViewController.m */,
+				F2A427BE231665A900F5A4B9 /* EventListener.h */,
+				F2A427BB231665A800F5A4B9 /* EventListener.m */,
+				F2A427BC231665A800F5A4B9 /* HomeViewController.h */,
+				F2A427B8231665A800F5A4B9 /* HomeViewController.m */,
+				F2A427B9231665A800F5A4B9 /* LoginViewController.h */,
+				F2A427AD231665A700F5A4B9 /* LoginViewController.m */,
+				F2A427B0231665A700F5A4B9 /* MineViewController.h */,
+				F2A427B5231665A700F5A4B9 /* MineViewController.m */,
+				F2A427B6231665A800F5A4B9 /* RiskViewController.h */,
+				F2A427B2231665A700F5A4B9 /* RiskViewController.m */,
+				F2A427BA231665A800F5A4B9 /* TabBarController.h */,
+				F2A427B3231665A700F5A4B9 /* TabBarController.m */,
+				F2A427B7231665A800F5A4B9 /* User.h */,
+				F2A427AE231665A700F5A4B9 /* User.m */,
 				F2A427792315015000F5A4B9 /* Assets.xcassets */,
 				F2A4277B2315015000F5A4B9 /* LaunchScreen.storyboard */,
 				F2A4277E2315015000F5A4B9 /* Info.plist */,
@@ -139,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2A427992315015000F5A4B9 /* Build configuration list for PBXNativeTarget "JinhuiSDKDemo" */;
 			buildPhases = (
+				AAD6BA4B019615C5AEB08056 /* [CP] Check Pods Manifest.lock */,
 				F2A427692315014F00F5A4B9 /* Sources */,
 				F2A4276A2315014F00F5A4B9 /* Frameworks */,
 				F2A4276B2315014F00F5A4B9 /* Resources */,
@@ -156,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2A4279C2315015000F5A4B9 /* Build configuration list for PBXNativeTarget "JinhuiSDKDemoTests" */;
 			buildPhases = (
+				9146568C182F2D5311F657B0 /* [CP] Check Pods Manifest.lock */,
 				F2A427812315015000F5A4B9 /* Sources */,
 				F2A427822315015000F5A4B9 /* Frameworks */,
 				F2A427832315015000F5A4B9 /* Resources */,
@@ -174,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2A4279F2315015000F5A4B9 /* Build configuration list for PBXNativeTarget "JinhuiSDKDemoUITests" */;
 			buildPhases = (
+				788E20BB4D676B1C9500E83D /* [CP] Check Pods Manifest.lock */,
 				F2A4278C2315015000F5A4B9 /* Sources */,
 				F2A4278D2315015000F5A4B9 /* Frameworks */,
 				F2A4278E2315015000F5A4B9 /* Resources */,
@@ -235,9 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A427C92316675B00F5A4B9 /* README.md in Resources */,
 				F2A4277D2315015000F5A4B9 /* LaunchScreen.storyboard in Resources */,
 				F2A4277A2315015000F5A4B9 /* Assets.xcassets in Resources */,
-				F2A427782315014F00F5A4B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +335,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		788E20BB4D676B1C9500E83D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JinhuiSDKDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9146568C182F2D5311F657B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JinhuiSDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD6BA4B019615C5AEB08056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JinhuiSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2A427692315014F00F5A4B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A427752315014F00F5A4B9 /* ViewController.m in Sources */,
+				F2A427C0231665A900F5A4B9 /* User.m in Sources */,
+				F2A427C2231665A900F5A4B9 /* RiskViewController.m in Sources */,
+				F2A427C6231665A900F5A4B9 /* EventListener.m in Sources */,
+				F2A427C1231665A900F5A4B9 /* EntryViewController.m in Sources */,
+				F2A427C5231665A900F5A4B9 /* HomeViewController.m in Sources */,
+				F2A427C4231665A900F5A4B9 /* MineViewController.m in Sources */,
+				F2A427BF231665A900F5A4B9 /* LoginViewController.m in Sources */,
+				F2A427C3231665A900F5A4B9 /* TabBarController.m in Sources */,
 				F2A427802315015000F5A4B9 /* main.m in Sources */,
 				F2A427722315014F00F5A4B9 /* AppDelegate.m in Sources */,
 			);
@@ -300,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2A427762315014F00F5A4B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2A427772315014F00F5A4B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2A4277B2315015000F5A4B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +579,7 @@
 		};
 		F2A4279A2315015000F5A4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +596,7 @@
 		};
 		F2A4279B2315015000F5A4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D5BB7E0C4486740F2D0596 /* Pods-JinhuiSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +613,7 @@
 		};
 		F2A4279D2315015000F5A4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF0C19DDADC25FC29C00908 /* Pods-JinhuiSDKDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +632,7 @@
 		};
 		F2A4279E2315015000F5A4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F53AA890A1AB26694C8DDF4 /* Pods-JinhuiSDKDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +651,7 @@
 		};
 		F2A427A02315015000F5A4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEDA354E951E89938C449FF /* Pods-JinhuiSDKDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JinhuiSDKDemoUITests/Info.plist;
@@ -518,6 +669,7 @@
 		};
 		F2A427A12315015000F5A4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7F37A079EE74634F1FDCE6 /* Pods-JinhuiSDKDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JinhuiSDKDemoUITests/Info.plist;
