@@ -23,6 +23,18 @@ target 'your target' do
 end
 ```
 
+#### Info.plist中添加所需权限
+```
+    <key>NSCameraUsageDescription</key>
+	<string>需要使用相机拍照进行实名认证、银行卡识别</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>需要使用麦克风录音完成合格投资者承诺</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>需要保存身份证、银行卡照片到相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需要读取相册中的身份证照片进行实名认证</string>
+```
+
 #### 初始化
 ```
 // AppDelegate.m
