@@ -35,6 +35,16 @@ end
 	<string>需要读取相册中的身份证照片进行实名认证</string>
 ```
 
+#### 测试模式下，允许加载http请求
+```
+    // 在Info.plist添加如下配置
+    <key>NSAppTransportSecurity</key>
+    <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    </dict>
+```
+
 #### 初始化
 ```
 // AppDelegate.m
