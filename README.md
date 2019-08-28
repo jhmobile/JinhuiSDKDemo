@@ -2,12 +2,17 @@
 * 文档维护人：邱敏舜
 
 ## 一、集成环境
-* iOS 8+
+* CocoaPods 1.7.5+
+* iOS 9+
 
-## 二、集成示例及API说明
+## 二、运行Demo
+执行`pod install`，即可正常运行Demo App。
+
+## 三、集成示例及API说明
 #### CocoaPods集成
-Podfile
 ```
+// Podfile
+
 source 'https://github.com/CocoaPods/Specs.git'
 source 'git@gitlab.jinhui365.cn:iOS/JHJRSpecs.git'
 
@@ -65,7 +70,6 @@ UIViewController *vc = [JinhuiSDK pageWithUrl:@"/product" params:params];
 @"bankAccount": @"10004695"
 }];
 ```
-* 用户信息字段最小集及其含义
 
 #### 退出登录
 ```
@@ -108,6 +112,27 @@ UIViewController *vc = [JinhuiSDK pageWithUrl:@"/product" params:params];
 // RiskViewController.m
 - (void)riskTestFinished {
     // 事件回调，与handleEventWithId:name:params:方法对应
-    [JinhuiSDK eventCallbackWithId:self.eventId message:@{@"code": @"0"} data:@{@"rank": @"3"}];
+    [JinhuiSDK eventCallbackWithId:self.eventId message:@{@"code": @"0", @"message": @"风险测评完成"} data:@{@"rank": @"3"}];
 }
+```
+
+## 四、API参数字段说明
+* 登录所用的用户信息最小集及其含义如下
+```
+name : 用户名
+mobile : 手机号
+idNo : 身份证号
+bankAccount : 华创资金账号
+```
+
+* 目前需要处理的事件type如下
+```
+login : App用户登录，登录完成后应调用[JinhuiSDK login:]登录SDK
+risk : 风险等级测评
+```
+
+* 事件回调message字段含义如下
+```
+code : 状态码，0表示成功，其他表示失败
+message : 事件消息
 ```
