@@ -2,25 +2,18 @@
 * 文档维护人：邱敏舜
 
 ## 一、集成环境
-* CocoaPods 1.7.5+
 * iOS 9+
 
 ## 二、运行Demo
 执行`pod install`，即可正常运行Demo App。
 
 ## 三、集成示例及API说明
-#### CocoaPods集成
+#### 手动集成JinhuiSDK.framework
+* 将源码目录下的`JinhuiSDK.framework`拷贝到项目中
+* 工程设置的`Linked Frameworks and Libraries`中添加以下项
 ```
-// Podfile
-
-source 'https://github.com/CocoaPods/Specs.git'
-source 'git@gitlab.jinhui365.cn:iOS/JHJRSpecs.git'
-
-target 'your target' do
-
-    pod 'JinhuiSDK'
-
-end
+JinhuiSDK.framework
+WebKit.framework
 ```
 
 #### Info.plist中添加所需权限
