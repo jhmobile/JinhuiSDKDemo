@@ -1,21 +1,16 @@
 PODS:
-  - JinhuiSDK (0.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - JinhuiSDK
   - Masonry
 
 SPEC REPOS:
-  "git@gitlab.jinhui365.cn:iOS/JHJRSpecs.git":
-    - JinhuiSDK
   https://github.com/cocoapods/specs.git:
     - Masonry
 
 SPEC CHECKSUMS:
-  JinhuiSDK: 6647d12e362cab27de4f1fa6b8b2ac7fafce8167
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 53df00a23dc3c07256d9b1265d8ebe1982e77253
+PODFILE CHECKSUM: 005495696fece6dab5776961723b797dee849008
 
 COCOAPODS: 1.7.5

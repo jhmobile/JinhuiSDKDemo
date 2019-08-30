@@ -8,7 +8,6 @@ target 'JinhuiSDKDemo' do
 
   # Pods for JinhuiSDKDemo
   pod 'Masonry'
-  pod 'JinhuiSDK'
 
   target 'JinhuiSDKDemoTests' do
     inherit! :search_paths

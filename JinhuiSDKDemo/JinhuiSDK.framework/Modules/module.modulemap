@@ -1,0 +1,6 @@
+framework module JinhuiSDK {
+  umbrella header "JinhuiSDK.h"
+
+  export *
+  module * { export * }
+}

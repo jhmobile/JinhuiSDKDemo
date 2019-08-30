@@ -25,6 +25,8 @@
 		F2A427C5231665A900F5A4B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427B8231665A800F5A4B9 /* HomeViewController.m */; };
 		F2A427C6231665A900F5A4B9 /* EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427BB231665A800F5A4B9 /* EventListener.m */; };
 		F2A427C92316675B00F5A4B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2A427C82316675B00F5A4B9 /* README.md */; };
+		F2A427CB2319037B00F5A4B9 /* JinhuiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A427CA2319037A00F5A4B9 /* JinhuiSDK.framework */; };
+		F2A427CD231903DC00F5A4B9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A427CC231903DC00F5A4B9 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		F2A427BC231665A800F5A4B9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F2A427BE231665A900F5A4B9 /* EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListener.h; sourceTree = "<group>"; };
 		F2A427C82316675B00F5A4B9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2A427CA2319037A00F5A4B9 /* JinhuiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JinhuiSDK.framework; path = JinhuiSDKDemo/JinhuiSDK.framework; sourceTree = "<group>"; };
+		F2A427CC231903DC00F5A4B9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A427CD231903DC00F5A4B9 /* WebKit.framework in Frameworks */,
+				F2A427CB2319037B00F5A4B9 /* JinhuiSDK.framework in Frameworks */,
 				CE11D7EDE78BEC5137867A6A /* libPods-JinhuiSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +123,8 @@
 		49FA8036895D928A555526F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A427CC231903DC00F5A4B9 /* WebKit.framework */,
+				F2A427CA2319037A00F5A4B9 /* JinhuiSDK.framework */,
 				A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */,
 				B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */,
 				5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */,
@@ -582,14 +590,21 @@
 			baseConfigurationReference = CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8YNFJPM5V2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JinhuiSDKDemo",
+				);
 				INFOPLIST_FILE = JinhuiSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jinhui365.JinhuiSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinhui365.inHouse-iphone-pay-staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Profile_development_iphonepay-staging";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -599,14 +614,21 @@
 			baseConfigurationReference = 97D5BB7E0C4486740F2D0596 /* Pods-JinhuiSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JinhuiSDKDemo",
+				);
 				INFOPLIST_FILE = JinhuiSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jinhui365.JinhuiSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinhui365.inHouse-iphone-pay-staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
