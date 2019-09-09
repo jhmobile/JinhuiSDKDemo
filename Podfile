@@ -5,6 +5,7 @@ target 'JinhuiSDKDemo' do
 
   # Pods for JinhuiSDKDemo
   pod 'Masonry'
+#  pod 'JinhuiSDK', :path => '../JinhuiSDK'
 
   target 'JinhuiSDKDemoTests' do
     inherit! :search_paths

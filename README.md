@@ -1,4 +1,4 @@
-# 金汇金融业务SDK集成文档
+# 金汇金融业务SDK集成文档 v0.1.2
 * 文档维护人：邱敏舜
 
 ## 一、集成环境
@@ -9,10 +9,12 @@
 
 ## 三、集成示例及API说明
 #### 手动集成JinhuiSDK.framework
-* 将源码目录下的`JinhuiSDK.framework`拷贝到项目中
+* 将源码目录下的`JinhuiSDK.framework`、`libmp3lame.a`拷贝到项目中
 * 工程设置的`Linked Frameworks and Libraries`中添加以下项
 ```
 JinhuiSDK.framework
+libmp3lame.a
+AVFoundation.framework
 WebKit.framework
 ```
 
