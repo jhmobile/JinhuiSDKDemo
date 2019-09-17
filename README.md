@@ -95,7 +95,7 @@ UIViewController *vc = [JinhuiSDK pageWithUrl:@"/product" params:params];
 ```
 #### 事件监听及回调
 
-* 事件监听处理
+* 事件监听处理（事件处理完成应调用SDK提供的回调方法）
 
 ```
 @protocol JinhuiSDKEventListener <NSObject>
@@ -123,12 +123,12 @@ UIViewController *vc = [JinhuiSDK pageWithUrl:@"/product" params:params];
 @end
 ```
 
-* 事件回调处理
+* 事件回调处理（事件处理完成后应当以事件触发时的eventId进行回调）
 
 ```
 // RiskViewController.m
 - (void)riskTestFinished {
-    // 事件回调，与handleEventWithId:name:params:方法对应
+    // 事件回调，与handleEventWithId:name:params:方法对应，回调的eventId与事件触发时的eventId一致。
     [JinhuiSDK eventCallbackWithId:self.eventId message:@{@"code": @"0", @"message": @"风险测评完成"} data:@{@"rank": @"3"}];
 }
 ```
