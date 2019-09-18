@@ -3,7 +3,7 @@
 //  JinhuiSDK
 //
 //  Created by mshqiu on 2019/8/22.
-//  v0.1.2
+//  
 
 #import <UIKit/UIKit.h>
 
