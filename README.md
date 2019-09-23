@@ -43,7 +43,7 @@ WebKit.framework
 #### 初始化
 ```
 // AppDelegate.m
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 设置渠道信息
     [JinhuiSDK setAppKey:@"jh0cbc916c0191b606" appSecret:@"47a44def5315c96b94819b10e69808e5"];
     //设置环境，YES：生产 NO：测试，默认NO
@@ -66,6 +66,13 @@ WebKit.framework
         // 退出登录SDK
         [JinhuiSDK logout];
     }
+    
+    return YES;
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return [UIViewController orientationMask];
+}
 ```
 #### 获取页面对象
 ```

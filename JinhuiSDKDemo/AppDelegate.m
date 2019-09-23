@@ -48,6 +48,10 @@
     
     return YES;
 }
+    
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return [UIViewController orientationMask];
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
