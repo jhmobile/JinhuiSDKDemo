@@ -10,6 +10,7 @@
 		838D282BD0C7D83D33791C96 /* libPods-JinhuiSDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */; };
 		CE11D7EDE78BEC5137867A6A /* libPods-JinhuiSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */; };
 		F1F0D89B71B8FA49F907B3B6 /* libPods-JinhuiSDKDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */; };
+		F20B4EF1236ACF240021585C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B4EF0236ACF240021585C /* CoreMedia.framework */; };
 		F2A427722315014F00F5A4B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A427712315014F00F5A4B9 /* AppDelegate.m */; };
 		F2A4277A2315015000F5A4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A427792315015000F5A4B9 /* Assets.xcassets */; };
 		F2A4277D2315015000F5A4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A4277B2315015000F5A4B9 /* LaunchScreen.storyboard */; };
@@ -58,6 +59,7 @@
 		A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemo/Pods-JinhuiSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F20B4EF0236ACF240021585C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F2A4276D2315014F00F5A4B9 /* JinhuiSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JinhuiSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A427702315014F00F5A4B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2A427712315014F00F5A4B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20B4EF1236ACF240021585C /* CoreMedia.framework in Frameworks */,
 				F2F5159D232647AF00986697 /* JinhuiSDK.framework in Frameworks */,
 				F2F5159E232647AF00986697 /* libmp3lame.a in Frameworks */,
 				F2F515982326340200986697 /* AVFoundation.framework in Frameworks */,
@@ -129,6 +132,7 @@
 		49FA8036895D928A555526F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F20B4EF0236ACF240021585C /* CoreMedia.framework */,
 				F2F5159B23263DBD00986697 /* JinhuiSDK.framework */,
 				F2F515992326385E00986697 /* libmp3lame.a */,
 				F2F515972326340200986697 /* AVFoundation.framework */,

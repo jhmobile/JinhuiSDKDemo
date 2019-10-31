@@ -1,4 +1,4 @@
-# 金汇金融业务SDK集成文档 v0.1.7
+# 金汇金融业务SDK集成文档 v0.1.8
 * 文档维护人：邱敏舜
 
 ## 一、集成环境
@@ -16,6 +16,7 @@ JinhuiSDK.framework
 libmp3lame.a
 AVFoundation.framework
 WebKit.framework
+CoreMedia.framework
 ```
 
 #### Info.plist中添加所需权限
