@@ -127,6 +127,11 @@
     self.mobileInput.text = @"18515279796";
     self.idNoInput.text = @"110000197603217303";
     self.bankAccountInput.text = @"10004695";
+    
+    self.nameInput.text = @"赵子豪";
+    self.mobileInput.text = @"15727300012";
+    self.idNoInput.text = @"130427199304260074";
+    self.bankAccountInput.text = @"10110426";
 }
 
 - (IBAction)login:(id)sender {
