@@ -85,6 +85,17 @@ UIViewController *vc = [JinhuiSDK pageWithUrl:@"/product" params:params];
 // 打开指定路由url的controller页面，用这种方式打开二级页面
 [JinhuiSDK push:@"/product" params:params];
 ```
+部分页面路由地址
+
+|页面|参数|扩展参数|备注|
+|:-:|:-:|:-:|:-:|
+|活期理财|/channel/product/huoqi |无||
+|稳健理财|/channel/product/wenjian|无||
+|资管私募|/channel/product/ziguansimu|无||
+|公募基金|/product/mutual|无||
+|股交产品|/channel/product/gujiao|无||
+
+
 #### 登录
 ```
 // 给SDK设置已登录的用户信息
