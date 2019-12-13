@@ -8,16 +8,24 @@
 执行`pod install`，即可正常运行Demo App。
 
 ## 三、集成示例及API说明
+
+#### 注意事项
+代码仓库中包含大文件，必要时请参考：
+[Duplicating a repository with Git Large File Storage objects](https://help.github.com/en/articles/duplicating-a-repository/#mirroring-a-repository-that-contains-git-large-file-storage-objects)
+
 #### 手动集成JinhuiSDK.framework
-* 将源码目录下的`JinhuiSDK.framework`、`libmp3lame.a`拷贝到项目中
+* 将源码目录下的`JinhuiSDK.framework`、`libmp3lame.a`及子目录`MGFaceID`中的文件添加到项目中
 * 工程设置的`Linked Frameworks and Libraries`中添加以下项
 ```
 JinhuiSDK.framework
 libmp3lame.a
 AVFoundation.framework
-WebKit.framework
 CoreMedia.framework
+CoreMotion.framework
+SystemConfiguration.framework
+WebKit.framework
 ```
+* 确保工程中存在至少一个.mm文件，如果没有，可将任意一个.m文件改成.mm
 
 #### Info.plist中添加所需权限
 ```
@@ -177,13 +185,15 @@ message : 事件消息
 
 # 变更历史
 
-### 0.1.13   bugfix:iOS 13上获取状态栏问题，改用判断刘海屏实现
+### 0.1.18  添加活体识别功能
 
-### 0.1.12   bugfix:iOS 13上获取状态栏问题，UIWindowScene实现
+### 0.1.13  bugfix:iOS 13上获取状态栏问题，改用判断刘海屏实现
 
-### 0.1.11   bugfix:导航栏隐藏控制
+### 0.1.12  bugfix:iOS 13上获取状态栏问题，UIWindowScene实现
 
-### 0.1.10   bugfix:导航栏隐藏顺序控制：宿主控制优先
+### 0.1.11  bugfix:导航栏隐藏控制
+
+### 0.1.10  bugfix:导航栏隐藏顺序控制：宿主控制优先
 
 ### 0.1.9   bugfix:取消页面刷新
 
