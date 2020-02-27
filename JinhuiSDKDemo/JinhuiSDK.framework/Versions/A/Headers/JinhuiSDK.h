@@ -17,6 +17,7 @@
 
 @interface JinhuiSDK : NSObject
 
+// v1.0.1
 + (NSString *)version;
 
 // 设置渠道appKey及appSecret
