@@ -10,6 +10,12 @@
 		838D282BD0C7D83D33791C96 /* libPods-JinhuiSDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */; };
 		CE11D7EDE78BEC5137867A6A /* libPods-JinhuiSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */; };
 		F1F0D89B71B8FA49F907B3B6 /* libPods-JinhuiSDKDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8CB849FBC2A74B89776848 /* libPods-JinhuiSDKDemoUITests.a */; };
+		F205139E2451935A00EC4960 /* IDLFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20513982451935A00EC4960 /* IDLFaceSDK.framework */; };
+		F205139F2451935A00EC4960 /* idl-license.face-ios in Resources */ = {isa = PBXBuildFile; fileRef = F20513992451935A00EC4960 /* idl-license.face-ios */; };
+		F20513A02451935A00EC4960 /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F205139A2451935A00EC4960 /* com.baidu.idl.face.model.bundle */; };
+		F20513A12451935A00EC4960 /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F205139B2451935A00EC4960 /* com.baidu.idl.face.faceSDK.bundle */; };
+		F20513A22451935A00EC4960 /* zl.face-ios in Resources */ = {isa = PBXBuildFile; fileRef = F205139C2451935A00EC4960 /* zl.face-ios */; };
+		F20513A32451935A00EC4960 /* SDK-ths-test.face-ios in Resources */ = {isa = PBXBuildFile; fileRef = F205139D2451935A00EC4960 /* SDK-ths-test.face-ios */; };
 		F20B4EF1236ACF240021585C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B4EF0236ACF240021585C /* CoreMedia.framework */; };
 		F250BCA623A33C0800A33B7E /* MGFaceIDLiveCustomDetect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F250BCA323A33C0800A33B7E /* MGFaceIDLiveCustomDetect.bundle */; };
 		F250BCA723A33C0800A33B7E /* MGFaceIDBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F250BCA423A33C0800A33B7E /* MGFaceIDBaseKit.framework */; };
@@ -64,6 +70,12 @@
 		A9FFC28BBA1FEC34520AE029 /* libPods-JinhuiSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CA522ED06E1075D3FF4BDB /* libPods-JinhuiSDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinhuiSDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3FB9DCD70043F2C0552167 /* Pods-JinhuiSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinhuiSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-JinhuiSDKDemo/Pods-JinhuiSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F20513982451935A00EC4960 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDLFaceSDK.framework; sourceTree = "<group>"; };
+		F20513992451935A00EC4960 /* idl-license.face-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "idl-license.face-ios"; sourceTree = "<group>"; };
+		F205139A2451935A00EC4960 /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
+		F205139B2451935A00EC4960 /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
+		F205139C2451935A00EC4960 /* zl.face-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "zl.face-ios"; sourceTree = "<group>"; };
+		F205139D2451935A00EC4960 /* SDK-ths-test.face-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SDK-ths-test.face-ios"; sourceTree = "<group>"; };
 		F20B4EF0236ACF240021585C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F250BCA323A33C0800A33B7E /* MGFaceIDLiveCustomDetect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MGFaceIDLiveCustomDetect.bundle; sourceTree = "<group>"; };
 		F250BCA423A33C0800A33B7E /* MGFaceIDBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGFaceIDBaseKit.framework; sourceTree = "<group>"; };
@@ -112,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F205139E2451935A00EC4960 /* IDLFaceSDK.framework in Frameworks */,
 				F20B4EF1236ACF240021585C /* CoreMedia.framework in Frameworks */,
 				F250BCAA23A33C1200A33B7E /* SystemConfiguration.framework in Frameworks */,
 				F250BCA823A33C0800A33B7E /* MGFaceIDLiveDetect.framework in Frameworks */,
@@ -174,6 +187,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F20513972451935A00EC4960 /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F20513982451935A00EC4960 /* IDLFaceSDK.framework */,
+				F20513992451935A00EC4960 /* idl-license.face-ios */,
+				F205139A2451935A00EC4960 /* com.baidu.idl.face.model.bundle */,
+				F205139B2451935A00EC4960 /* com.baidu.idl.face.faceSDK.bundle */,
+				F205139C2451935A00EC4960 /* zl.face-ios */,
+				F205139D2451935A00EC4960 /* SDK-ths-test.face-ios */,
+			);
+			name = FaceSDK;
+			path = JinhuiSDKDemo/FaceSDK;
+			sourceTree = "<group>";
+		};
 		F250BCA223A33C0800A33B7E /* MGFaceID */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +215,7 @@
 		F2A427642315014F00F5A4B9 = {
 			isa = PBXGroup;
 			children = (
+				F20513972451935A00EC4960 /* FaceSDK */,
 				F250BCA223A33C0800A33B7E /* MGFaceID */,
 				F2A427C82316675B00F5A4B9 /* README.md */,
 				F2A4276F2315014F00F5A4B9 /* JinhuiSDKDemo */,
@@ -364,8 +392,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A427C92316675B00F5A4B9 /* README.md in Resources */,
+				F205139F2451935A00EC4960 /* idl-license.face-ios in Resources */,
+				F20513A02451935A00EC4960 /* com.baidu.idl.face.model.bundle in Resources */,
 				F2A4277D2315015000F5A4B9 /* LaunchScreen.storyboard in Resources */,
+				F20513A32451935A00EC4960 /* SDK-ths-test.face-ios in Resources */,
+				F20513A12451935A00EC4960 /* com.baidu.idl.face.faceSDK.bundle in Resources */,
 				F2A4277A2315015000F5A4B9 /* Assets.xcassets in Resources */,
+				F20513A22451935A00EC4960 /* zl.face-ios in Resources */,
 				F250BCA623A33C0800A33B7E /* MGFaceIDLiveCustomDetect.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,6 +676,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/JinhuiSDKDemo",
 					"$(PROJECT_DIR)/JinhuiSDKDemo/MGFaceID",
+					"$(PROJECT_DIR)/JinhuiSDKDemo/FaceSDK",
 				);
 				INFOPLIST_FILE = JinhuiSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -673,6 +707,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/JinhuiSDKDemo",
 					"$(PROJECT_DIR)/JinhuiSDKDemo/MGFaceID",
+					"$(PROJECT_DIR)/JinhuiSDKDemo/FaceSDK",
 				);
 				INFOPLIST_FILE = JinhuiSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

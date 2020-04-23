@@ -1,4 +1,4 @@
-# 金汇金融业务SDK集成文档 v1.0.1
+# 金汇金融业务SDK集成文档 v1.1.0
 * 文档维护人：邱敏舜
 
 ## 一、集成环境
@@ -14,7 +14,7 @@
 [Duplicating a repository with Git Large File Storage objects](https://help.github.com/en/articles/duplicating-a-repository/#mirroring-a-repository-that-contains-git-large-file-storage-objects)
 
 #### 手动集成JinhuiSDK.framework
-* 将源码目录下的`JinhuiSDK.framework`、`libmp3lame.a`及子目录`MGFaceID`中的文件添加到项目中
+* 将源码目录下的`JinhuiSDK.framework`、`libmp3lame.a`及子目录`MGFaceID`、`FaceSDK`添加到项目中
 * 工程设置的`Linked Frameworks and Libraries`中添加以下项
 ```
 JinhuiSDK.framework
@@ -185,9 +185,11 @@ message : 事件消息
 
 # 变更历史
 
-### 1.0.1   修复@available() 导致不兼容Xcode 11以下版本的问题
+### 1.1.0   增加人脸检测  
 
-### 1.1.0   删除UIWebView引用
+### 1.0.2   修复@available() 导致不兼容Xcode 11以下版本的问题
+
+### 1.0.0   删除UIWebView引用
 
 ### 0.1.18  添加活体识别功能
 
